@@ -17,7 +17,6 @@
    or
    composer update
    ```
-
 4. Database
 
    ```laravel
@@ -26,7 +25,18 @@
    import database
    ```
 
-5. Username and Password
+5. Set up Laravel configurations
+
+   ```laravel
+   copy .env.example .env
+   php artisan key:generate
+   ```
+6. Set your database in .env
+
+   ```laravel
+   DB_DATABASE=hamo
+   ```
+7. Login
 
    ```laravel
    email: fajar@gmail.com
