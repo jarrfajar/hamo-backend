@@ -36,7 +36,12 @@
    ```laravel
    DB_DATABASE=hamo
    ```
-7. Login credentials
+7. File Storage
+
+   ```laravel
+   php artisan storage:link
+   ```
+8. Login credentials
 
    ```laravel
    email: fajar@gmail.com
