@@ -36,7 +36,7 @@
    ```laravel
    DB_DATABASE=hamo
    ```
-7. Login
+7. Login credentials
 
    ```laravel
    email: fajar@gmail.com
